@@ -92,7 +92,7 @@ def test_get_controls(names, entries, mock_llm_output, expected):
     ]
 
     result = e.get_controls(names, entries, mock_pipe)
-    assert expected in result
+    assert set(expected.split(",")) == set(result.split(","))
 
 
 def test_execute_kubescape(monkeypatch, tmp_path):
