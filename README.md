@@ -1,6 +1,6 @@
 # ssp-project
 
-This was a solo project.
+This was a solo project. Claude was used to help me generate test cases as well as help me with portions of the tasks.
 
 Kevin Kuoch, kzk0139@auburn.edu
 
