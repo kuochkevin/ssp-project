@@ -1,16 +1,32 @@
-#!/bin/sh
-# Runs all test cases before every commit.
+name: Run All Tests
 
-echo "Running test suite before commit..."
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
 
-pytest task1/test_extractor.py task2/test_comparator.py task3/test_executor.py -v
+jobs:
+  test:
+    runs-on: ubuntu-latest
 
-if [ $? -ne 0 ]; then
-  echo ""
-  echo "Tests failed. Commit aborted."
-  echo "Fix the failing tests and try again."
-  exit 1
-fi
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-echo "All tests passed. Proceeding with commit."
-exit 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Task-1 tests
+        run: pytest task1/test_extractor.py -v
+
+      - name: Run Task-2 tests
+        run: pytest task2/test_comparator.py -v
+
+      - name: Run Task-3 tests
+        run: pytest task3/test_executor.py -v
