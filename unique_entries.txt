@@ -1,0 +1,72 @@
+Node Restriction,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Details the criteria for determining if a node requires additional monitoring or inspection
+Node Restriction,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Limits the number of nodes allowed at the same time
+Node Restriction,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Specifies minimum node size
+Node Restriction,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Defines maximum number of nodes permitted per region/cluster
+Node Restriction,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Describes constraints regarding node resource allocation
+Node Restriction,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Restrict node access levels based on roles and responsibilities
+Node Restriction,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Ensure proper authorization across all node components
+Node Restriction,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Limit unnecessary privileges granted to nodes
+IAM Best Practices,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Secret Encryption,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Define key management practices related to the encryption keys
+Secret Encryption,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Must specify the method of encryption used
+Secret Encryption,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Specify how the encryption keys will be generated, stored, rotated, and revoked
+Secret Encryption,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Detail the procedures for verifying the integrity of the encryption keys
+Secret Encryption,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,The mechanism by which sensitive data is protected within the infrastructure
+Secret Encryption,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Utilize strong cryptographic algorithms for data protection
+Secret Encryption,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Securely protect sensitive data by implementing encryption methods
+Secret Encryption,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Implement key rotation strategies based on established best practices
+Secret Encryption,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,Protect against unauthorized decryption attempts through robust access controls
+Workflow Automation,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Role Based Access Control (RBAC),ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Strengthen Infrastructure Security,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+DefaultValue,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Address Identified Weaknesses,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Network Segmentation,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+RBAC and ServiceAccounts,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Implement Monitoring & Alerting,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Improve Visibility into System Activity,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Minimize Wildcard Use,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Increase Security Posture,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Implement Secure Cluster Communication,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Incident Response,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Minimize Wildcards in Roles and ClusterRoles,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Load Balancer Configuration,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Test and Verify Security,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Container Security,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Automation,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+API Gateway Configuration,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+API Server Pod Specification File Permissions,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Remediation: Run the command: `chmod 600 /etc/kubernetes/manifests/kube-apiserver.yaml`
+API Server Pod Specification File Permissions,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Default Value: By default, the API server pod specification file has permissions of 640
+Role-Based Access Control (RBAC),ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Secure Cluster Admin Role,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+WorkerNodeConfigurationFiles,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Audit Trails,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Resource Lifecycle Management,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Service Account Permissions,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Pod Security Policies,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Monitor Changes to Systems,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Streamline Operations,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Reduce CloudWatch Logs,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Container Optimization,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Network Policies,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Cluster-Admin Role Usage,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Audit Policy Covers Key Security Concerns,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,Default Value: Until the `--audit-policy-file flag is specified, no auditing is carried out
+Exposing Services,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Minimize ClusterAdmin Role Usage,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Configure Cluster-Admin Role Usage,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Implement secure API Server Deployment,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Improve Incident Response Process,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Ensure ClusterAdmin Role Only Used Where Required,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Monitoring & Auditing,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Implement Enhanced Threat Detection,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Cloud Provider Specific Considerations,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Enhance Security Automation,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Minimize Access to Secrets,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Review and Validate Configurations,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Refine Compliance Measures,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Secure Least Privilege Principle,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+KMS Encryption,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Update Documentation,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Secure Boot,ABSENT-IN-task1/cis-r2-kdes.yaml,PRESENT-IN-task1/cis-r1-kdes.yaml,NA
+Compliance & Governance,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA
+Security Best Practices,ABSENT-IN-task1/cis-r1-kdes.yaml,PRESENT-IN-task1/cis-r2-kdes.yaml,NA

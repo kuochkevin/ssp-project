@@ -1,0 +1,52 @@
+Monitor Changes to Systems
+Streamline Operations
+Workflow Automation
+IAM Best Practices
+Role Based Access Control (RBAC)
+Reduce CloudWatch Logs
+Strengthen Infrastructure Security
+Container Optimization
+Network Policies
+DefaultValue
+Address Identified Weaknesses
+Cluster-Admin Role Usage
+Network Segmentation
+RBAC and ServiceAccounts
+Implement Monitoring & Alerting
+Improve Visibility into System Activity
+Minimize Wildcard Use
+Exposing Services
+Increase Security Posture
+Implement Secure Cluster Communication
+Minimize Wildcards in Roles and ClusterRoles
+Incident Response
+Minimize ClusterAdmin Role Usage
+Configure Cluster-Admin Role Usage
+Improve Incident Response Process
+Implement Enhanced Threat Detection
+Monitoring & Auditing
+Test and Verify Security
+Container Security
+Implement secure API Server Deployment
+Load Balancer Configuration
+Ensure ClusterAdmin Role Only Used Where Required
+Cloud Provider Specific Considerations
+Enhance Security Automation
+Automation
+Minimize Access to Secrets
+API Gateway Configuration
+Review and Validate Configurations
+Role-Based Access Control (RBAC)
+Secure Cluster Admin Role
+Refine Compliance Measures
+WorkerNodeConfigurationFiles
+Audit Trails
+Secure Least Privilege Principle
+Resource Lifecycle Management
+Service Account Permissions
+Update Documentation
+KMS Encryption
+Secure Boot
+Compliance & Governance
+Pod Security Policies
+Security Best Practices
